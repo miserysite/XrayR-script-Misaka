@@ -32,8 +32,8 @@ curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compo
 chmod +x /usr/local/bin/docker-compose
 ```
 
-2. `git clone https://github.com/Misaka-blog/XrayR-script XrayR-release`
-3. `cd XrayR-release`
+2. `git clone https://github.com/miserysite/XrayR-script-Misaka`
+3. `XrayR-script-Misaka`
 4. 编辑config。
 配置文件基本格式如下，Nodes下可以同时添加多个面板，多个节点配置信息，只需添加相同格式的Nodes item即可。
 5. 启动docker：`docker-compose up -d`
